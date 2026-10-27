@@ -1,6 +1,6 @@
 ---
 name: video-script
-description: Write scripts for short vertical videos (TikTok, Instagram Reels, YouTube Shorts, 15–90 s) built to hold viewers to the end: hook, beats, payoff, loop, with spoken lines, on-screen text and visuals per beat. Use when asked for a short-form script, hooks, a reel/TikTok/Short idea turned into words, or to rewrite a script that sounds generic or AI-written.
+description: Write scripts for short vertical videos (TikTok, Instagram Reels, YouTube Shorts, 15–90 s) built to hold viewers to the end (hook, beats, payoff, loop), with spoken lines, on-screen text and visuals per beat. Use when asked for a short-form script, hooks, a reel/TikTok/Short idea turned into words, or to rewrite a script that sounds generic or AI-written.
 ---
 
 # Video Script
