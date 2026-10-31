@@ -11,6 +11,8 @@ Write in the person's language and the way their audience talks (Spanish: their 
 
 ## Before writing
 
+Read `video/criterio.md` (the project's script taste) and follow it. Missing: create it as in [Criterio](#criterio).
+
 Get, or assume and state in one line: **topic**, **platform**, **length**, **format** (talking head, voice-over on b-roll, text-only on screen, skit), **goal** (follows, comments, a click, a sale), **who's watching**. Defaults: 30–45 s, talking head, goal = watch to the end.
 
 **One video, one idea.** If you need "and" to say what it is about, it's two videos. Find the one specific thing the viewer gets at the end (a number, a trick, a reveal, a punchline) — the payoff. Write the payoff first, then the hook that promises it.
@@ -104,5 +106,24 @@ On-screen text sits in the middle of the frame: platform UI covers the bottom ~2
 3. **Clock:** count words against the budget.
 4. **AI scan:** go through the "Not sounding like AI" list line by line. Any hit gets rewritten, not softened.
 5. **Out loud:** read the whole thing at speaking pace. Anything you stumble over gets rewritten.
+
+## Criterio
+
+`video/criterio.md` holds what the person has taught you about their scripts. Format:
+
+```md
+# Criterio
+Guía, no reglas. Si algo no aplica al guion, ignoralo.
+## Innegociable
+## Preferencias
+## Ejemplo
+(Antes / Después / Por qué; uno solo, se reemplaza)
+```
+
+When the person corrects a script and then approves it:
+- The same correction has come up before: add it to **Preferencias** with its why — the intent, not the wording.
+- Otherwise: only replace the **Ejemplo**.
+
+Max ~15 preferences: to add one, merge or drop another. The example shows judgment, not a template: never copy its structure or its phrases.
 
 If the video will be built with the `video-edit` skill, the table rows become the SPEC's SHOTS and the spoken column the voice-over script.
