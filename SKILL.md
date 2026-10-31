@@ -17,7 +17,7 @@ Get, or assume and state in one line: **topic**, **platform**, **length**, **for
 
 **One video, one idea.** If you need "and" to say what it is about, it's two videos. Find the one specific thing the viewer gets at the end (a number, a trick, a reveal, a punchline) — the payoff. Write the payoff first, then the hook that promises it.
 
-**Length = words.** Spoken pace ≈ 2.5–3 words/s. 15 s ≈ 40 words · 30 s ≈ 80 · 45 s ≈ 120 · 60 s ≈ 150. Over budget: cut ideas, never talk faster.
+**Length = words.** Spoken pace ≈ 3.3 words/s (voice at 1.2x, silences cut). 15 s ≈ 50 words · 30 s ≈ 100 · 45 s ≈ 150 · 60 s ≈ 200. Over budget: cut ideas, not words from a line.
 
 ## Structure
 
@@ -94,7 +94,7 @@ TITLE: working title · PLATFORM · LENGTH s · ~WORDS words · FORMAT
 Then:
 - **3 alternative hooks** (different patterns, same payoff), best first.
 - **Caption** (1–2 lines, adds something the video doesn't say, or asks a real question that invites comments) + 3–5 hashtags.
-- One line of **delivery notes** only if needed (where to pause, which word to hit, where to cut).
+- One line of **delivery notes** only if needed (which word to hit, where to cut; no pauses, lines run back to back).
 
 Text-only videos: the "Spoken" column becomes the on-screen text, ≤8 words per card, held long enough to read (~0.3 s per word + 0.5 s).
 On-screen text sits in the middle of the frame: platform UI covers the bottom ~20% and the right edge.
