@@ -11,7 +11,7 @@ Write in the person's language and the way their audience talks (Spanish: their 
 
 ## Before writing
 
-Read `video/criterio.md` (the project's script taste) and follow it. Missing: create it as in [Criterio](#criterio).
+Read `~/.video-script-skill/criterio.md` (the person's script taste) and follow it. Missing: create it as in [Criterio](#criterio).
 
 Get, or assume and state in one line: **topic**, **platform**, **length**, **format** (talking head, voice-over on b-roll, text-only on screen, skit), **goal** (follows, comments, a click, a sale), **who's watching**. Defaults: 30–45 s, talking head, goal = watch to the end.
 
@@ -109,7 +109,7 @@ On-screen text sits in the middle of the frame: platform UI covers the bottom ~2
 
 ## Criterio
 
-`video/criterio.md` holds what the person has taught you about their scripts. Format:
+`~/.video-script-skill/criterio.md` holds what the person has taught you about their scripts. It lives in the home folder, outside the skill, so every project shares it and updating the skill never wipes it. Format:
 
 ```md
 # Criterio
