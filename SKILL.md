@@ -18,7 +18,7 @@ Criterio lives in a private git repo, so every machine and cloud session shares 
 
 If found in `~/.video-script-skill/`, `git pull --rebase` there before reading (cloud clones are already fresh). Read it and follow it.
 
-If you changed it, in its folder: `git add criterio.md && git commit -m "criterio: <what changed>" && git pull --rebase && git push`.
+If you changed it and its folder is a git repo, in that folder: `git add criterio.md && git commit -m "criterio: <what changed>" && git pull --rebase && git push`.
 
 Get, or assume and state in one line: **topic**, **platform**, **length**, **format** (talking head, voice-over on b-roll, text-only on screen, skit), **goal** (follows, comments, a click, a sale), **who's watching**. Defaults: 30–45 s, talking head, goal = watch to the end.
 
