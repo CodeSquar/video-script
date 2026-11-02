@@ -109,21 +109,26 @@ On-screen text sits in the middle of the frame: platform UI covers the bottom ~2
 
 ## Criterio
 
-`~/.video-script-skill/criterio.md` holds what the person has taught you about their scripts. It lives in the home folder, outside the skill, so every project shares it and updating the skill never wipes it. Format:
+`~/.video-script-skill/criterio.md` holds the person's script taste. It lives outside the skill, so every project shares it and updating the skill never wipes it. Format:
 
 ```md
 # Criterio
 Guía, no reglas. Si algo no aplica al guion, ignoralo.
 ## Innegociable
 ## Preferencias
-## Ejemplo
-(Antes / Después / Por qué; uno solo, se reemplaza)
+## A confirmar
+## Ejemplos
+(Antes / Después / Por qué; máx. 3, de tipos distintos)
 ```
 
-When the person corrects a script and then approves it:
-- The same correction has come up before: add it to **Preferencias** with its why — the intent, not the wording.
-- Otherwise: only replace the **Ejemplo**.
+Learn from every correction, not only approved ones:
+- The person states a rule ("nunca", "siempre", "anotá esto"): write it straight into **Innegociable** (hard rule) or **Preferencias**.
+- A correction with a pattern behind it: write the intent, not the wording, in **A confirmar**. If it's already there, move it to **Preferencias** with its why.
+- A one-off about this topic only: don't save it.
+- The person pastes back a script they edited themselves: compare it with yours and learn from the differences the same way.
 
-Max ~15 preferences: to add one, merge or drop another. The example shows judgment, not a template: never copy its structure or its phrases.
+After saving, say in one line what was saved and where, so the person can veto it.
+
+Keep it small: Preferencias ≤15, A confirmar ≤10 (drop the oldest). Merge before adding. When an entry contradicts a newer correction, the newer one wins and the old one goes. Replace an example only with a better one of the same kind. Examples show judgment, not a template: never copy their structure or phrases.
 
 If the video will be built with the `video-edit` skill, the table rows become the SPEC's SHOTS and the spoken column the voice-over script.
