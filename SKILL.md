@@ -11,7 +11,14 @@ Write in the person's language and the way their audience talks (Spanish: their 
 
 ## Before writing
 
-Read `~/.video-script-skill/criterio.md` (the person's script taste) and follow it. Missing: create it as in [Criterio](#criterio).
+Criterio lives in a private git repo, so every machine and cloud session shares one copy. Find `criterio.md`:
+1. `~/.video-script-skill/criterio.md` (local clone).
+2. Otherwise, the attached criterio repo in this session (cloud sessions clone every attached repo).
+3. Neither: create `~/.video-script-skill/criterio.md` as in [Criterio](#criterio) (local only, not synced).
+
+If found in `~/.video-script-skill/`, `git pull --rebase` there before reading (cloud clones are already fresh). Read it and follow it.
+
+If you changed it and its folder is a git repo, in that folder: `git add criterio.md && git commit -m "criterio: <what changed>" && git pull --rebase && git push`.
 
 Get, or assume and state in one line: **topic**, **platform**, **length**, **format** (talking head, voice-over on b-roll, text-only on screen, skit), **goal** (follows, comments, a click, a sale), **who's watching**. Defaults: 30–45 s, talking head, goal = watch to the end.
 
