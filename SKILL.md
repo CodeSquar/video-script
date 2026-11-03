@@ -16,7 +16,7 @@ Criterio lives in a private git repo, so every machine and cloud session shares 
 2. Otherwise, the attached criterio repo in this session (cloud sessions clone every attached repo).
 3. Neither: create `~/.video-script-skill/criterio.md` as in [Criterio](#criterio) (local only, not synced).
 
-If found in `~/.video-script-skill/`, `git pull --rebase` there before reading (cloud clones are already fresh). Read it and follow it.
+If found in `~/.video-script-skill/`, `git pull --rebase` there before reading (cloud clones are already fresh). Read it and follow it: **Innegociable** always; **Preferencias** by default; **A confirmar** too, so they get tested, unless they clash with something above them.
 
 If you changed it and its folder is a git repo, in that folder: `git add criterio.md && git commit -m "criterio: <what changed>" && git pull --rebase && git push`.
 
@@ -133,9 +133,10 @@ Learn from every correction, not only approved ones:
 - A correction with a pattern behind it: write the intent, not the wording, in **A confirmar**. If it's already there, move it to **Preferencias** with its why.
 - A one-off about this topic only: don't save it.
 - The person pastes back a script they edited themselves: compare it with yours and learn from the differences the same way.
+- An entry with a data source in parentheses (e.g. another account's stats) moves to **Preferencias** only when new data confirms it or the person approves it. A correction from the person about their own videos outweighs another account's data.
 
 After saving, say in one line what was saved and where, so the person can veto it.
 
-Keep it small: Preferencias ≤15, A confirmar ≤10 (drop the oldest). Merge before adding. When an entry contradicts a newer correction, the newer one wins and the old one goes. Replace an example only with a better one of the same kind. Examples show judgment, not a template: never copy their structure or phrases.
+Keep it small: Preferencias ≤15, A confirmar ≤10. Merge before adding: entries about the same part of the script (hook, cierre, tono…) become one. If a section is still full, ask the person which entry to drop; never drop one on your own. When an entry contradicts a newer correction, the newer one wins and the old one goes. Replace an example only with a better one of the same kind. Examples show judgment, not a template: never copy their structure or phrases.
 
 If the video will be built with the `video-edit` skill, the table rows become the SPEC's SHOTS and the spoken column the voice-over script.
