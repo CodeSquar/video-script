@@ -2,7 +2,7 @@
 
 Scripts for short videos that people watch to the end.
 
-TikTok, Reels, Shorts. 15 to 90 seconds.
+TikTok, Reels, Shorts. As short as the idea allows.
 
 ## Why
 
