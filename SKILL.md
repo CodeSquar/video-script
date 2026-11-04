@@ -28,6 +28,8 @@ Get, or assume and state in one line: **topic**, **platform**, **max length** (o
 
 ## Structure
 
+A guide for writing, not a template: not every script needs every beat, and none of these names appear in the output.
+
 | Beat | Job |
 | --- | --- |
 | **Hook** | Stop the thumb with the first line. |
@@ -84,15 +86,14 @@ Viewers recognise AI scripts in a second and swipe. Treat everything below as ba
 
 ## Output
 
-Give the script as spoken lines only, one line per beat (name the beat in front). No timings, no on-screen text, no visuals:
+Give the script as spoken lines only, one per line, no labels. No timings, no on-screen text, no visuals:
 
 ```
 TITLE: working title · PLATFORM · FORMAT
 
-Hook: ...
-Stakes: ...
-Beat: ...
-Payoff: ...
+First spoken line.
+Next spoken line.
+...
 ```
 
 Then:
