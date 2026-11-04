@@ -1,6 +1,6 @@
 ---
 name: video-script
-description: Write scripts for short vertical videos (TikTok, Instagram Reels, YouTube Shorts, 15–90 s) built to hold viewers to the end (hook, beats, payoff, loop), with spoken lines, on-screen text and visuals per beat. Use when asked for a short-form script, hooks, a reel/TikTok/Short idea turned into words, or to rewrite a script that sounds generic or AI-written.
+description: Write scripts for short vertical videos (TikTok, Instagram Reels, YouTube Shorts) built to hold viewers to the end (hook, beats, payoff, loop), with spoken lines, on-screen text and visuals per beat. Use when asked for a short-form script, hooks, a reel/TikTok/Short idea turned into words, or to rewrite a script that sounds generic or AI-written.
 ---
 
 # Video Script
@@ -20,11 +20,11 @@ If found in `~/.video-script-skill/`, `git pull --rebase` there before reading (
 
 If you changed it and its folder is a git repo, in that folder: `git add criterio.md && git commit -m "criterio: <what changed>" && git pull --rebase && git push`.
 
-Get, or assume and state in one line: **topic**, **platform**, **length**, **format** (talking head, voice-over on b-roll, text-only on screen, skit), **goal** (follows, comments, a click, a sale), **who's watching**. Defaults: 30–45 s, talking head, goal = watch to the end.
+Get, or assume and state in one line: **topic**, **platform**, **max length** (only if given), **format** (talking head, voice-over on b-roll, text-only on screen, skit), **goal** (follows, comments, a click, a sale), **who's watching**. Defaults: as short as the idea allows, talking head, goal = watch to the end.
 
 **One video, one idea.** If you need "and" to say what it is about, it's two videos. Find the one specific thing the viewer gets at the end (a number, a trick, a reveal, a punchline) — the payoff. Write the payoff first, then the hook that promises it.
 
-**Length = words.** Spoken pace ≈ 3.3 words/s (voice at 1.2x, silences cut). 15 s ≈ 50 words · 30 s ≈ 100 · 45 s ≈ 150 · 60 s ≈ 200. Over budget: cut ideas, not words from a line.
+**Shorter is better.** Length is a result, not a target: write the idea, then cut until nothing more can go without breaking the payoff. Every extra word costs viewers. If there is a max length, cut ideas, not words from a line.
 
 ## Structure
 
@@ -91,7 +91,7 @@ Viewers recognise AI scripts in a second and swipe. Treat everything below as ba
 Give the script as a table, one row per beat:
 
 ```
-TITLE: working title · PLATFORM · LENGTH s · ~WORDS words · FORMAT
+TITLE: working title · PLATFORM · FORMAT
 
 | t (s) | Spoken (VO / to camera) | On-screen text | Visual / b-roll / action |
 |-------|-------------------------|----------------|--------------------------|
@@ -110,7 +110,7 @@ On-screen text sits in the middle of the frame: platform UI covers the bottom ~2
 
 1. **Swipe test:** read it line by line as a bored stranger. Mark every line where you'd swipe. Fix or cut those lines.
 2. **Hook test:** is the first second specific and visual, and does the hook promise exactly what the payoff delivers? A hook the payoff doesn't keep is clickbait and kills retention and trust.
-3. **Clock:** count words against the budget.
+3. **Cut:** remove every line, word and beat the payoff survives without. Then try once more.
 4. **AI scan:** go through the "Not sounding like AI" list line by line. Any hit gets rewritten, not softened.
 5. **Out loud:** read the whole thing at speaking pace. Anything you stumble over gets rewritten.
 
