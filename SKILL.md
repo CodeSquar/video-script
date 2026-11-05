@@ -86,7 +86,7 @@ Viewers recognise AI scripts in a second and swipe. Treat everything below as ba
 
 ## Output
 
-Give the script as spoken lines only, one per line, no labels. No timings, no on-screen text, no visuals:
+Give the script as spoken lines only, one per line, no labels. No timings, no on-screen text, no visuals: this skill owns only what is said; what appears on screen, the hook's title included, belongs to `video-edit` and the project's style.
 
 ```
 TITLE: working title · PLATFORM · FORMAT
