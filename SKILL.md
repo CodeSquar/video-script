@@ -11,15 +11,6 @@ Write in the person's language and the way their audience talks (Spanish: their 
 
 ## Before writing
 
-Criterio lives in a private git repo, so every machine and cloud session shares one copy. Find `criterio.md`:
-1. `~/.video-script-skill/criterio.md` (local clone).
-2. Otherwise, the attached criterio repo in this session (cloud sessions clone every attached repo).
-3. Neither: create `~/.video-script-skill/criterio.md` as in [Criterio](#criterio) (local only, not synced).
-
-If found in `~/.video-script-skill/`, `git pull --rebase` there before reading (cloud clones are already fresh). Read it and follow it: **Innegociable** always; **Preferencias** by default; **A confirmar** too, so they get tested, unless they clash with something above them.
-
-If you changed it and its folder is a git repo, in that folder: `git add criterio.md && git commit -m "criterio: <what changed>" && git pull --rebase && git push`.
-
 Get, or assume and state in one line: **topic**, **platform**, **max length** (only if given), **format** (talking head, voice-over, skit), **goal** (follows, comments, a click, a sale), **who's watching**. Defaults: as short as the idea allows, talking head, goal = watch to the end.
 
 **One video, one idea.** If you need "and" to say what it is about, it's two videos. Find the one specific thing the viewer gets at the end (a number, a trick, a reveal, a punchline) — the payoff. Write the payoff first, then the hook that promises it.
@@ -108,30 +99,5 @@ Then:
 3. **Cut:** remove every line, word and beat the payoff survives without. Then try once more.
 4. **AI scan:** go through the "Not sounding like AI" list line by line. Any hit gets rewritten, not softened.
 5. **Out loud:** read the whole thing at speaking pace. Anything you stumble over gets rewritten.
-
-## Criterio
-
-`~/.video-script-skill/criterio.md` holds the person's script taste. It lives outside the skill, so every project shares it and updating the skill never wipes it. Format:
-
-```md
-# Criterio
-Guía, no reglas. Si algo no aplica al guion, ignoralo.
-## Innegociable
-## Preferencias
-## A confirmar
-## Ejemplos
-(Antes / Después / Por qué; máx. 3, de tipos distintos)
-```
-
-Learn from every correction, not only approved ones:
-- The person states a rule ("nunca", "siempre", "anotá esto"): write it straight into **Innegociable** (hard rule) or **Preferencias**.
-- A correction with a pattern behind it: write the intent, not the wording, in **A confirmar**. If it's already there, move it to **Preferencias** with its why.
-- A one-off about this topic only: don't save it.
-- The person pastes back a script they edited themselves: compare it with yours and learn from the differences the same way.
-- An entry with a data source in parentheses (e.g. another account's stats) moves to **Preferencias** only when new data confirms it or the person approves it. A correction from the person about their own videos outweighs another account's data.
-
-After saving, say in one line what was saved and where, so the person can veto it.
-
-Keep it small: Preferencias ≤15, A confirmar ≤10. Merge before adding: entries about the same part of the script (hook, cierre, tono…) become one. If a section is still full, ask the person which entry to drop; never drop one on your own. When an entry contradicts a newer correction, the newer one wins and the old one goes. Replace an example only with a better one of the same kind. Examples show judgment, not a template: never copy their structure or phrases.
 
 If the video will be built with the `video-edit` skill, the spoken lines are the voice-over script.
