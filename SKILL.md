@@ -24,20 +24,24 @@ A guide for writing, not a template: not every script needs every beat, and none
 | Beat | Job |
 | --- | --- |
 | **Hook** | Stop the thumb with the first line. |
-| **Stakes** | Why this viewer should care, and a promise of what's coming. No backstory. |
+| **Stakes** | Why this viewer should care, and a promise of what's coming. No backstory, no attribution. |
 | **Beats** | Something new in every line. Each beat opens a small question the next one answers. |
-| **Re-hook** | Around the 60% mark of the lines: a turn ("but that's not the weird part"), a twist, a second open loop. Where the curve sags. |
+| **Re-hook** | Where the middle would sag: a turn, a twist, a second open loop. Its place comes from the script, not from a fixed position. |
 | **Payoff** | Deliver exactly what the hook promised, with the most specific detail. |
 | **Out** | Stop right after the payoff, or end on a line that flows back into the first (loop). CTA only if the goal needs one, and only one. |
 
 **The hook is the first spoken line:** ≤12 words, the first word already in the topic. Specific: a number, a name, a place, a price, an object.
 
-**Hook patterns** (pick by topic, then make it specific — the pattern is not the hook):
-- Result first: "This $12 part fixed a car three mechanics gave up on."
-- Callout: "If you've ever lost a game because of lag, watch this."
-- Wrong belief: "You've been charging your phone wrong, and it's costing you a year of battery."
-- Mid-story: "So the landlord walks in, sees the wall, and goes silent."
-- Countdown/test: "I tried every cheap mic under $30. One is actually good."
+**The second line raises the stakes.** It makes the hook bigger, closer to the viewer or more surprising; it never spends itself on who announced something or when. A source is spoken only when it changes how much to believe the claim ("their own benchmark on their own product"), and then where the doubt arises. A date is spoken only when it is part of the value (a deadline, "yesterday"). Any other attribution belongs on screen or in the caption.
+
+**Hook patterns** (pick by topic; each is a reason to stay, not a sentence to fill in):
+- Result first: open on the outcome; the viewer stays for how it happened.
+- Callout: name the exact situation the viewer is in; they stay because it is about them.
+- Wrong belief: name something the viewer does or believes, and what it costs them; they stay for the fix.
+- Mid-story: start inside the scene, at the moment something goes wrong; they stay to see how it ends.
+- Test: many were compared and one won; they stay for which.
+
+Write the hook from scratch in the audience's language, with this topic's own number, name or object. A stock formula ("You've been doing X wrong", "If you've ever… watch this"), or its translation, is generic before the topic is even named. If the person or project gives hooks that already performed for this account, take the pattern from those first.
 
 Kill on sight: "Hey guys", "In this video…", "Did you know…?" with nothing specific after it, "Let me tell you", any intro before the first piece of value.
 
@@ -49,7 +53,7 @@ Kill on sight: "Hey guys", "In this video…", "Did you know…?" with nothing s
 - One idea per sentence. Mix lengths: short. Then one that runs a little longer because it's carrying a detail. Then short again.
 - Concrete beats abstract: "my rent went from 400 to 650" over "costs increased significantly".
 - Words the audience uses, including slang and contractions. No words you'd have to look up.
-- Specificity is the proof: a real number, a date, a brand, a mistake you made. Never invent stats or quotes; a missing fact is `[DATO: …]` for the person to fill in.
+- Specificity is the proof: a real number, a name, a brand, a price. Never invent stats, quotes or first-person experience ("I tried it", "it happened to me", a client, a mistake): those come only from the person. A missing fact or anecdote is `[DATO: …]` for the person to fill in.
 - Cut the first sentence. Most drafts start one line too early.
 
 ## Not sounding like AI
@@ -63,6 +67,7 @@ Viewers recognise AI scripts in a second and swipe. Treat everything below as ba
 - Colon reveals and em dashes everywhere. In a spoken script, use full stops.
 - Every sentence the same length; every beat starting the same way; perfect parallelism.
 - Explaining the hook after it lands; recapping what was just said; "In short…", "En resumen…", "En conclusión…".
+- A fixed label announcing the opinion: "My take:", "Here's what I think:", "Mi lectura:". Say the opinion.
 - Motivational or moral closer: "Because at the end of the day…", "Remember: …", "Y recuerda: …".
 - Hedging and balance nobody asked for: "it depends", "there are pros and cons", "everyone is different".
 - Generic examples: "imagine a business owner", "a friend of mine" with no name or detail.
@@ -73,7 +78,7 @@ Viewers recognise AI scripts in a second and swipe. Treat everything below as ba
 
 **Formatting:** no emoji in spoken lines, no hashtag walls in the caption (3–5 relevant ones max), no "🚀🔥💡" decoration.
 
-**What makes it sound human:** an opinion someone could disagree with; a detail only someone who was there would know; a small admission ("I got this wrong for years"); an aside or interruption; a sentence that ends early. Some roughness is fine — it's a person talking.
+**What makes it sound human:** an opinion someone could disagree with; a concrete detail from the source that a summary would have dropped; an aside or interruption; a sentence that ends early. A personal admission or a first-hand detail only when the person gave it, never made up. Some roughness is fine — it's a person talking.
 
 ## Output
 
@@ -95,9 +100,10 @@ Then:
 ## Check before delivering
 
 1. **Swipe test:** read it line by line as a bored stranger. Mark every line where you'd swipe. Fix or cut those lines.
-2. **Hook test:** is the first line specific, and does the hook promise exactly what the payoff delivers? A hook the payoff doesn't keep is clickbait and kills retention and trust.
-3. **Cut:** remove every line, word and beat the payoff survives without. Then try once more.
-4. **AI scan:** go through the "Not sounding like AI" list line by line. Any hit gets rewritten, not softened.
-5. **Out loud:** read the whole thing at speaking pace. Anything you stumble over gets rewritten.
+2. **Hook test:** is the first line specific, and does the hook promise exactly what the payoff delivers? A hook the payoff doesn't keep is clickbait and kills retention and trust. Does the second line raise the stakes instead of citing a source or a date?
+3. **Send test:** who would the viewer send this to, or save it for, and why? No answer means the payoff is not useful or surprising enough: sharpen it.
+4. **Cut:** remove every line, word and beat the payoff survives without. Then try once more.
+5. **AI scan:** go through the "Not sounding like AI" list line by line. Any hit gets rewritten, not softened.
+6. **Out loud:** read the whole thing at speaking pace. Anything you stumble over gets rewritten.
 
 If the video will be built with the `video-edit` skill, the spoken lines are the voice-over script.
